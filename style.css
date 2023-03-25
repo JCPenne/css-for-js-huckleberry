@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+body,
+html,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+p {
+  font-size: 1.25rem;
+  line-height: 150%;
+}
+.max-width-wrapper {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  min-height: 400px;
+  padding-top: 96px;
+}
+main {
+  min-height: 450px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  background-color: hsl(0, 0%, 40%);
+  border-top: 8px solid hsl(0, 0%, 60%);
+}
+.card {
+  padding-top: 8px;
+  padding-bottom: 24px;
+  padding-right: 24px;
+  min-height: 320px;
+  max-width: 800px;
+  background-color: hsl(0, 0%, 100%);
+  border-bottom: 8px solid hsl(0, 0%, 60%);
+}
+.indented-heading {
+  margin-left: -8px;
+  width: fit-content;
+  min-height: 28px;
+  padding: 16px 32px;
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
+}
+h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+  padding-left: 24px;
+  padding-bottom: 48px;
+}
+h2 {
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+.intro-chunk p {
+  padding-left: 24px;
+  padding-bottom: 16px;
+  max-width: 424px;
+}
+.card p {
+  padding-left: 24px;
+  padding-right: 2px;
+  padding-top: 16px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
